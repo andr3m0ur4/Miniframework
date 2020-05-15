@@ -14,12 +14,6 @@
 				'action' => 'index'
 			];
 
-			$routes['sobre_nos'] = [
-				'route' => '/sobre_nos',
-				'controller' => 'IndexController',
-				'action' => 'sobreNos'
-			];
-
 			$this->setRoutes($routes);
 		}
 	}
